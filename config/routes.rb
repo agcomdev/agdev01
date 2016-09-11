@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'contact/index'
+
+  get 'portfolio/index'
+
+  get 'bio/index'
+
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
